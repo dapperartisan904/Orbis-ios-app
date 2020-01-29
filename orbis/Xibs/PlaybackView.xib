@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlaybackView" customModule="orbis" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="iN0-l3-epB" id="OZv-b7-s7b"/>
+                <outlet property="pauseButton" destination="A07-te-COX" id="bkO-Ka-m7I"/>
+                <outlet property="playButton" destination="B39-JQ-l9G" id="tx3-r2-sNd"/>
+                <outlet property="refreshButton" destination="8td-F0-Ox7" id="MnM-h2-Zw2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.59999999999999998" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SCP-FL-fQV" userLabel="Overlay">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baseline_play_arrow_black_48pt" translatesAutoresizingMaskIntoConstraints="NO" id="B39-JQ-l9G">
+                    <rect key="frame" x="8" y="0.0" width="50" height="50"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="B39-JQ-l9G" secondAttribute="height" id="t04-FC-2Ib"/>
+                    </constraints>
+                </imageView>
+                <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baseline_pause_black_48pt" translatesAutoresizingMaskIntoConstraints="NO" id="A07-te-COX">
+                    <rect key="frame" x="8" y="0.0" width="50" height="50"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </imageView>
+                <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baseline_refresh_black_48pt" translatesAutoresizingMaskIntoConstraints="NO" id="8td-F0-Ox7">
+                    <rect key="frame" x="317" y="0.0" width="50" height="50"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="8td-F0-Ox7" secondAttribute="height" id="GXM-RK-hgb"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="B39-JQ-l9G" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="8" id="1iQ-77-mtf"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="top" secondItem="8td-F0-Ox7" secondAttribute="top" id="5XP-9t-S6J"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="SCP-FL-fQV" secondAttribute="trailing" id="9Dp-r5-wSN"/>
+                <constraint firstItem="SCP-FL-fQV" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="BIK-l0-0Yr"/>
+                <constraint firstItem="8td-F0-Ox7" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="CHF-K8-qXD"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="top" secondItem="B39-JQ-l9G" secondAttribute="top" id="IJY-PE-wfg"/>
+                <constraint firstItem="A07-te-COX" firstAttribute="trailing" secondItem="B39-JQ-l9G" secondAttribute="trailing" id="JHq-BX-vHy"/>
+                <constraint firstItem="A07-te-COX" firstAttribute="top" secondItem="B39-JQ-l9G" secondAttribute="top" id="LHE-Fb-UdE"/>
+                <constraint firstItem="A07-te-COX" firstAttribute="leading" secondItem="B39-JQ-l9G" secondAttribute="leading" id="Lxe-aM-Wb0"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="top" secondItem="SCP-FL-fQV" secondAttribute="top" id="Prw-Jl-nzg"/>
+                <constraint firstItem="B39-JQ-l9G" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="WVQ-Oi-kcb"/>
+                <constraint firstItem="A07-te-COX" firstAttribute="bottom" secondItem="B39-JQ-l9G" secondAttribute="bottom" id="aM1-jP-c9S"/>
+                <constraint firstItem="SCP-FL-fQV" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="rjG-ik-D9K"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="8td-F0-Ox7" secondAttribute="trailing" constant="8" id="xzh-lV-r5G"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-162" y="-43"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="baseline_pause_black_48pt" width="96" height="96"/>
+        <image name="baseline_play_arrow_black_48pt" width="96" height="96"/>
+        <image name="baseline_refresh_black_48pt" width="96" height="96"/>
+    </resources>
+</document>

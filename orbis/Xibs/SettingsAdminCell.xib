@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SettingsAdminCell" rowHeight="45" id="g7L-E7-86u" customClass="SettingsAdminCell" customModule="orbis_sandbox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="g7L-E7-86u" id="xYl-3G-eaI">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OjQ-kU-jxD" customClass="RoundedImageView" customModule="orbis_sandbox" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="100.5" height="99.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="OjQ-kU-jxD" secondAttribute="height" constant="1" id="v8j-QD-wAb"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="sZG-qN-bg2">
+                        <rect key="frame" x="116.5" y="41" width="226.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="URf-PC-R3s">
+                        <rect key="frame" x="351" y="38" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="5Gc-PH-qap"/>
+                            <constraint firstAttribute="height" constant="24" id="myu-d9-stQ"/>
+                        </constraints>
+                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" image="baseline_create_black_48pt"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="URf-PC-R3s" firstAttribute="leading" secondItem="sZG-qN-bg2" secondAttribute="trailing" constant="8" id="PuW-zF-RY1"/>
+                    <constraint firstItem="URf-PC-R3s" firstAttribute="centerY" secondItem="xYl-3G-eaI" secondAttribute="centerY" id="k4O-VP-4b3"/>
+                    <constraint firstAttribute="trailing" secondItem="URf-PC-R3s" secondAttribute="trailing" id="mEe-6F-kvP"/>
+                    <constraint firstItem="OjQ-kU-jxD" firstAttribute="top" secondItem="xYl-3G-eaI" secondAttribute="top" id="p7V-Wb-9nI"/>
+                    <constraint firstItem="sZG-qN-bg2" firstAttribute="centerY" secondItem="xYl-3G-eaI" secondAttribute="centerY" id="pCh-so-ZXQ"/>
+                    <constraint firstAttribute="bottom" secondItem="OjQ-kU-jxD" secondAttribute="bottom" id="uEP-nR-1aC"/>
+                    <constraint firstItem="sZG-qN-bg2" firstAttribute="leading" secondItem="OjQ-kU-jxD" secondAttribute="trailing" constant="16" id="vlm-RD-m6M"/>
+                </constraints>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstItem="OjQ-kU-jxD" firstAttribute="leading" secondItem="g7L-E7-86u" secondAttribute="leading" id="fmj-Ja-uJl"/>
+            </constraints>
+            <connections>
+                <outlet property="editButton" destination="URf-PC-R3s" id="XPO-Li-EWP"/>
+                <outlet property="groupImageView" destination="OjQ-kU-jxD" id="299-b5-HeK"/>
+                <outlet property="groupNameLabel" destination="sZG-qN-bg2" id="wwZ-l6-JW6"/>
+            </connections>
+            <point key="canvasLocation" x="-431.19999999999999" y="-75.562218890554732"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="baseline_create_black_48pt" width="96" height="96"/>
+    </resources>
+</document>

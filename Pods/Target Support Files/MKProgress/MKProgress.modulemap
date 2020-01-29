@@ -1,0 +1,6 @@
+framework module MKProgress {
+  umbrella header "MKProgress-umbrella.h"
+
+  export *
+  module * { export * }
+}

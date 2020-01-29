@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FlagView" customModule="orbis_production" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="355" height="175"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pole" translatesAutoresizingMaskIntoConstraints="NO" id="AIh-uB-fVn">
+                    <rect key="frame" x="0.0" y="0.0" width="355" height="175"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flag" translatesAutoresizingMaskIntoConstraints="NO" id="8h4-Ev-el3">
+                    <rect key="frame" x="0.0" y="0.0" width="355" height="175"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tb5-jU-3iq" customClass="RoundedImageView" customModule="orbis_production" customModuleProvider="target">
+                    <rect key="frame" x="160.5" y="4" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="Tb5-jU-3iq" secondAttribute="height" id="jcd-rf-oW9"/>
+                        <constraint firstAttribute="width" constant="40" id="pKd-YL-e7h"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="DvC-KQ-0nf">
+                    <rect key="frame" x="153.5" y="115" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="1pu-hy-h3m"/>
+                        <constraint firstAttribute="height" constant="60" id="lge-ik-bfv"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="DvC-KQ-0nf" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="3IR-PN-jdi"/>
+                <constraint firstItem="Tb5-jU-3iq" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="4" id="4OO-f2-pOQ"/>
+                <constraint firstItem="AIh-uB-fVn" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="UkV-aS-jB6"/>
+                <constraint firstItem="8h4-Ev-el3" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="VeT-QS-c3C"/>
+                <constraint firstItem="AIh-uB-fVn" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="YTR-2x-bIj"/>
+                <constraint firstItem="Tb5-jU-3iq" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" constant="3" id="ZZz-3W-h4x"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="8h4-Ev-el3" secondAttribute="trailing" id="eYl-Ff-eyA"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="AIh-uB-fVn" secondAttribute="trailing" id="foR-Zb-fdM"/>
+                <constraint firstItem="8h4-Ev-el3" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="l5t-rt-XwH"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="AIh-uB-fVn" secondAttribute="bottom" id="qci-mn-NlM"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="8h4-Ev-el3" secondAttribute="bottom" id="tdB-FE-9f8"/>
+                <constraint firstItem="DvC-KQ-0nf" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" constant="6" id="xUo-si-NxB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="flagImageView" destination="8h4-Ev-el3" id="bU4-8K-BzR"/>
+                <outlet property="groupImageView" destination="Tb5-jU-3iq" id="Xc7-6W-1cE"/>
+                <outlet property="placeImageView" destination="DvC-KQ-0nf" id="0gi-ue-Boy"/>
+                <outlet property="poleImageView" destination="AIh-uB-fVn" id="aeE-WH-UDK"/>
+            </connections>
+            <point key="canvasLocation" x="-52" y="-260"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="flag" width="50.5" height="71.5"/>
+        <image name="pole" width="50.5" height="71.5"/>
+    </resources>
+</document>

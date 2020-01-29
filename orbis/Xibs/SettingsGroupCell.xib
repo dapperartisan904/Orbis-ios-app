@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SettingsGroupCell" rowHeight="100" id="zQZ-9e-EaV" customClass="SettingsGroupCell" customModule="orbis_sandbox" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zQZ-9e-EaV" id="sFn-UU-ueB">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3Ja-OK-25r" customClass="RoundedImageView" customModule="orbis_sandbox" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="99.5" height="99.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="3Ja-OK-25r" secondAttribute="height" id="S41-ji-1Ui"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="qOL-5u-2ov">
+                        <rect key="frame" x="111.5" y="0.0" width="251.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="pvS-Zv-Toh">
+                        <rect key="frame" x="111.5" y="69.5" width="251.5" height="30"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gri-7P-4cT" customClass="GroupButton" customModule="orbis_sandbox" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="122" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isMembershipButton" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isPresenceEventButton" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Uj-uX-LT4" customClass="GroupButton" customModule="orbis_sandbox" customModuleProvider="target">
+                                <rect key="frame" x="130" y="0.0" width="121.5" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isMembershipButton" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isPresenceEventButton" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="0.83035714289999996" alpha="1" colorSpace="calibratedRGB"/>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="qOL-5u-2ov" secondAttribute="trailing" constant="12" id="18F-Ds-Lgu"/>
+                    <constraint firstAttribute="bottom" secondItem="3Ja-OK-25r" secondAttribute="bottom" id="Ebo-uw-6NP"/>
+                    <constraint firstItem="qOL-5u-2ov" firstAttribute="top" secondItem="3Ja-OK-25r" secondAttribute="top" id="TnC-zu-HPK"/>
+                    <constraint firstItem="pvS-Zv-Toh" firstAttribute="leading" secondItem="qOL-5u-2ov" secondAttribute="leading" id="VQz-6a-40f"/>
+                    <constraint firstItem="pvS-Zv-Toh" firstAttribute="bottom" secondItem="3Ja-OK-25r" secondAttribute="bottom" id="fiO-Xh-lcb"/>
+                    <constraint firstItem="3Ja-OK-25r" firstAttribute="top" secondItem="sFn-UU-ueB" secondAttribute="top" id="m54-21-Bdy"/>
+                    <constraint firstItem="pvS-Zv-Toh" firstAttribute="trailing" secondItem="qOL-5u-2ov" secondAttribute="trailing" id="pOw-kA-lu8"/>
+                    <constraint firstItem="qOL-5u-2ov" firstAttribute="leading" secondItem="3Ja-OK-25r" secondAttribute="trailing" constant="12" id="xEO-r3-Drp"/>
+                    <constraint firstItem="3Ja-OK-25r" firstAttribute="leading" secondItem="sFn-UU-ueB" secondAttribute="leading" id="ywO-J7-bbL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="changeButton" destination="gri-7P-4cT" id="SbX-g8-YbA"/>
+                <outlet property="groupImageView" destination="3Ja-OK-25r" id="Few-SN-pfw"/>
+                <outlet property="groupNameLabel" destination="qOL-5u-2ov" id="KxB-sQ-Dkj"/>
+                <outlet property="leaveButton" destination="0Uj-uX-LT4" id="F8M-B1-I1m"/>
+            </connections>
+            <point key="canvasLocation" x="-509.60000000000002" y="25.187406296851577"/>
+        </tableViewCell>
+    </objects>
+</document>

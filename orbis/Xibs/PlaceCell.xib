@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PlaceCell" rowHeight="200" id="a3j-e0-n5g" customClass="PlaceCell" customModule="orbis" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="161"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="a3j-e0-n5g" id="mcT-1m-3T8">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="160.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="A7c-bW-F9u" customClass="RoundedImageView" customModule="orbis" customModuleProvider="target">
+                        <rect key="frame" x="20" y="43" width="75" height="75"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="A7c-bW-F9u" secondAttribute="height" id="IOo-aq-doO"/>
+                            <constraint firstAttribute="width" constant="75" id="f65-df-fv7"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="T6B-fg-agO" customClass="RoundedImageView" customModule="orbis" customModuleProvider="target">
+                        <rect key="frame" x="20" y="43" width="75" height="75"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QQy-94-BMe">
+                        <rect key="frame" x="20" y="43" width="75" height="75"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Oxr-x0-SEF">
+                        <rect key="frame" x="135" y="43" width="220" height="33"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Wt-WX-otO" customClass="GroupButton" customModule="orbis" customModuleProvider="target">
+                        <rect key="frame" x="135" y="76" width="156" height="34"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="34" id="qnF-Kf-14t"/>
+                        </constraints>
+                        <state key="normal" title="Button"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="isPresenceEventButton" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYf-Pd-nAy" customClass="FollowPlaceButton" customModule="orbis" customModuleProvider="target">
+                        <rect key="frame" x="331" y="77" width="32" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="ZYH-9C-rBG"/>
+                            <constraint firstAttribute="width" secondItem="gYf-Pd-nAy" secondAttribute="height" id="zJP-DI-sJG"/>
+                        </constraints>
+                    </button>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="wpL-ws-8T1">
+                        <rect key="frame" x="203" y="83" width="20" height="20"/>
+                    </activityIndicatorView>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="hVh-Wc-nWD">
+                        <rect key="frame" x="337" y="83" width="20" height="20"/>
+                    </activityIndicatorView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="gYf-Pd-nAy" firstAttribute="centerY" secondItem="7Wt-WX-otO" secondAttribute="centerY" id="8An-yj-aVZ"/>
+                    <constraint firstItem="T6B-fg-agO" firstAttribute="trailing" secondItem="A7c-bW-F9u" secondAttribute="trailing" id="LTN-hR-rAz"/>
+                    <constraint firstItem="wpL-ws-8T1" firstAttribute="centerX" secondItem="7Wt-WX-otO" secondAttribute="centerX" id="NLO-Y6-eeI"/>
+                    <constraint firstItem="QQy-94-BMe" firstAttribute="leading" secondItem="A7c-bW-F9u" secondAttribute="leading" id="Ov2-KM-1th"/>
+                    <constraint firstAttribute="trailing" secondItem="Oxr-x0-SEF" secondAttribute="trailing" constant="20" id="RsR-n4-6lC"/>
+                    <constraint firstItem="QQy-94-BMe" firstAttribute="bottom" secondItem="A7c-bW-F9u" secondAttribute="bottom" id="ZRP-uc-FoL"/>
+                    <constraint firstItem="hVh-Wc-nWD" firstAttribute="centerY" secondItem="gYf-Pd-nAy" secondAttribute="centerY" id="Zcc-Jq-FrO"/>
+                    <constraint firstItem="A7c-bW-F9u" firstAttribute="centerY" secondItem="mcT-1m-3T8" secondAttribute="centerY" id="Ztv-vz-xjC"/>
+                    <constraint firstItem="T6B-fg-agO" firstAttribute="leading" secondItem="A7c-bW-F9u" secondAttribute="leading" id="aUh-4X-iqq"/>
+                    <constraint firstItem="A7c-bW-F9u" firstAttribute="leading" secondItem="mcT-1m-3T8" secondAttribute="leading" constant="20" id="bou-5i-e2n"/>
+                    <constraint firstItem="Oxr-x0-SEF" firstAttribute="top" secondItem="A7c-bW-F9u" secondAttribute="top" id="cTf-mO-Ncz"/>
+                    <constraint firstItem="hVh-Wc-nWD" firstAttribute="centerX" secondItem="gYf-Pd-nAy" secondAttribute="centerX" id="eQx-Q4-vUE"/>
+                    <constraint firstItem="QQy-94-BMe" firstAttribute="top" secondItem="A7c-bW-F9u" secondAttribute="top" id="g8c-pf-hxH"/>
+                    <constraint firstItem="T6B-fg-agO" firstAttribute="bottom" secondItem="A7c-bW-F9u" secondAttribute="bottom" id="g9D-eR-M2l"/>
+                    <constraint firstItem="7Wt-WX-otO" firstAttribute="bottom" secondItem="A7c-bW-F9u" secondAttribute="bottom" constant="-8" id="hUl-kh-Dbt"/>
+                    <constraint firstItem="T6B-fg-agO" firstAttribute="top" secondItem="A7c-bW-F9u" secondAttribute="top" id="hkg-oi-vDm"/>
+                    <constraint firstItem="wpL-ws-8T1" firstAttribute="centerY" secondItem="7Wt-WX-otO" secondAttribute="centerY" id="k9o-QL-BUj"/>
+                    <constraint firstItem="7Wt-WX-otO" firstAttribute="leading" secondItem="A7c-bW-F9u" secondAttribute="trailing" constant="40" id="lf4-gd-2FH"/>
+                    <constraint firstItem="QQy-94-BMe" firstAttribute="trailing" secondItem="A7c-bW-F9u" secondAttribute="trailing" id="oJa-H6-CU2"/>
+                    <constraint firstItem="7Wt-WX-otO" firstAttribute="leading" secondItem="Oxr-x0-SEF" secondAttribute="leading" id="pWE-d7-hE3"/>
+                    <constraint firstAttribute="trailing" secondItem="gYf-Pd-nAy" secondAttribute="trailing" constant="12" id="ptb-C5-zzR"/>
+                    <constraint firstItem="gYf-Pd-nAy" firstAttribute="leading" secondItem="7Wt-WX-otO" secondAttribute="trailing" constant="40" id="szB-hw-95c"/>
+                    <constraint firstItem="7Wt-WX-otO" firstAttribute="top" secondItem="Oxr-x0-SEF" secondAttribute="bottom" id="wFQ-8p-kbi"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="followActivityIndicatorView" destination="hVh-Wc-nWD" id="kdW-CP-hJa"/>
+                <outlet property="followButton" destination="gYf-Pd-nAy" id="yNZ-De-jzp"/>
+                <outlet property="groupImageView" destination="A7c-bW-F9u" id="PCD-BE-vPh"/>
+                <outlet property="mainActionButton" destination="7Wt-WX-otO" id="lJR-EF-7gK"/>
+                <outlet property="mainActionIndicatorView" destination="wpL-ws-8T1" id="YCE-KZ-U2p"/>
+                <outlet property="nameLabel" destination="Oxr-x0-SEF" id="euE-eJ-uAP"/>
+                <outlet property="placeImageView" destination="QQy-94-BMe" id="qE4-kT-vaN"/>
+                <outlet property="placeStrokeImageView" destination="T6B-fg-agO" id="BUH-of-B2w"/>
+            </connections>
+            <point key="canvasLocation" x="-220" y="-99"/>
+        </tableViewCell>
+    </objects>
+</document>

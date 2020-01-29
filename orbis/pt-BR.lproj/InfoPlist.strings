@@ -1,0 +1,14 @@
+/* 
+  InfoStrings.strings
+  orbis
+
+  Created by Rodrigo Brauwers on 28/05/19.
+  Copyright © 2019 Orbis. All rights reserved.
+*/
+
+"NSCameraUsageDescription" = "Orbis quer acessar a câmera para postar fotos";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Orbis quer accessar sua localização para marcar sua localização no mapa.";
+"NSLocationAlwaysUsageDescription" = "Orbis quer accessar sua localização para marcar sua localização no mapa.";
+"NSLocationWhenInUseUsageDescription" = "Orbis quer accessar sua localização para marcar sua localização no mapa.";
+"NSPhotoLibraryAddUsageDescription" = "Permita o acesso para salvar fotos no seu dispositivo.";
+"NSPhotoLibraryUsageDescription" = "Permita o acesso para compartilhar fotos e vídeos.";

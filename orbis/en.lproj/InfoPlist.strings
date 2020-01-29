@@ -1,0 +1,14 @@
+/* 
+  InfoStrings.strings
+  orbis
+
+  Created by Rodrigo Brauwers on 28/05/19.
+  Copyright © 2019 Orbis. All rights reserved.
+*/
+
+"NSCameraUsageDescription" = "This app will make use of camera to upload images and take profile pictures.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Orbis wants to access location to mark you checkin's on the map.";
+"NSLocationAlwaysUsageDescription" = "Orbis wants to access location to mark you checkin's on the map.";
+"NSLocationWhenInUseUsageDescription" = "Orbis wants to access location to mark you checkin's on the map.";
+"NSPhotoLibraryAddUsageDescription" = "Please allow access to save photo in your photo library.";
+"NSPhotoLibraryUsageDescription" = "Please allow access in order to share photo and videos.";

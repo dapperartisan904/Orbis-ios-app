@@ -1,0 +1,908 @@
+/*
+ * Loco ios export: iOS Localizable.strings
+ * Project: strings.xml conversion
+ * Release: Working copy
+ * Locale: en, English
+ * Exported by: Unregistered user
+ * Exported at: Tue, 05 Mar 2019 09:17:15 -0300
+ */
+
+/*  */
+"active" = "Ativo";
+
+/*  */
+"address" = "Endereço";
+
+/*  */
+"ago" = "atrás";
+
+"agreed_terms_of_service" = "Ao continuar você concorda com os termos de uso";
+
+/*  */
+"attend" = "Comparecer";
+
+/*  */
+"attending" = "Comparecendo";
+
+/*  */
+"block_user" = "Bloquear este usuário";
+
+/*  */
+"cancel" = "Cancelar";
+
+/*  */
+"change" = "Mudar";
+
+/*  */
+"change_and_manage_groups" = "Mudar Grupo/Meus Grupos";
+
+/*  */
+"change_group" = "Mudar de Grupo";
+
+/*  */
+"choose" = "SELECIONAR";
+
+/*  */
+"choose_application" = "Escolha a aplicação";
+
+/*  */
+"choose_color" = "Escolhar a Cor";
+
+/*  */
+"choose_color_2" = "Escolha a Cor";
+
+/*  */
+"choose_color_3" = "ESCOLHA A COR";
+
+/*  */
+"choose_group" = "ESCOLHA UM GRUPO PARA COMEÇAR";
+
+/*  */
+"choose_group_name" = "Escolha o nome do grupo.";
+
+/*  */
+"choose_place_icon" = "Escolha um ícone de lugar";
+
+/*  */
+"choose_place_name" = "Escolha o nome do lugar";
+
+/*  */
+"choose_photo" = "SELECIONE FOTO";
+
+/*  */
+"choose_video" = "SELECIONE O VIDEO";
+
+/*  */
+"change_photo" = "Mudar Foto";
+
+/*  */
+"check_inbox" = "Por favor cheque seu inbox";
+
+/*  */
+"check_in" = "Check in";
+
+/*  */
+"check_in_uppercase" = "CHECK IN";
+
+/*  */
+"check_in_error_no_location" = "Não pode-se fazer check in porque a localização do aparelho é desconhecida";
+
+/*  */
+"check_in_error_not_allowed" = "Você só pode fazer o check-in em um local a cada 24 horas com esse grupo. Altere o grupo para fazer o check-in novamente ou faça o check-in em outro local.";
+
+/*  */
+"check_in_error_too_far" = "Você está muito longe do lugar para fazer o check-in.";
+
+/*  */
+"check_out" = "Check Out";
+
+/*  */
+"choose_your_language" = "Escolha seu idioma";
+
+/*  */
+"claim_this_place" = "CLAMAR ESTE LUGAR";
+
+/*  */
+"claim_place_info_1" = "Postagens patrocinadas atingem 25 km quadrados para todos os usuários do sistema.";
+
+/*  */
+"claim_place_info_2" = "Mais visibilidade e capacidade de interagir com os clientes como porta-voz oficial";
+
+/*  */
+"claim_place_info_3" = "Crie eventos patrocinados e obtenha visibilidade";
+
+/*  */
+"claim_place_info_4" = "Seja o único capaz de editar o lugar";
+
+/*  */
+"claim_place_error" = "Este local é de propriedade de outro usuário.";
+
+/*  */
+"claim_place_error_2" = "Você já possui este lugar.";
+
+/*  */
+"click_to_start_conversation" = "Clique para iniciar a conversa";
+
+/*  */
+"commented_on_this" = "comentou sobre isso.";
+
+/*  */
+"confirmed" = "confirmado:";
+
+/*  */
+"conquered" = "CONQUISTOU";
+
+/*  */
+"constant_tracking" = "Rastreamento constante";
+
+/*  */
+"copy_address" = "Copiar endereço";
+
+/*  */
+"create" = "CRIAR";
+
+/*  */
+"create_event" = "Criar Evento";
+
+/*  */
+"create_new_group" = "Criar novo grupo";
+
+/*  */
+"create_place" = "CRIAR LUGAR";
+
+/*  */
+"create_place_name" = "Crie o nome do lugar";
+
+/*  */
+"created_an_event_at" = "criou UM EVENTO em";
+
+/*  */
+"date" = "Data";
+
+/*  */
+"date_of_birth" = "Data de nascimento";
+
+/*  */
+"days" = "dias";
+
+/*  */
+"delete" = "Deletar";
+
+/*  */
+"delete_event" = "Deletar evento";
+
+/*  */
+"delete_post" = "Deletar essa postagem";
+
+/*  */
+"device_language" = "Idioma do dispositivo";
+
+/*  */
+"describe_group_characteristics" = "Descreva as características do seu grupo";
+
+/*  */
+"details" = "Detalhes";
+
+/*  */
+"dismiss" = "dispensar";
+
+/*  */
+"edit_group_description" = "Editar a descrição do grupo";
+
+/*  */
+"edit_event" = "Editar evento";
+
+/*  */
+"email" = "EMAIL";
+
+/*  */
+"email_example" = "email@domain.com";
+
+/*  */
+"email_sent" = "Email enviado";
+
+/*  */
+"enter_event_link" = "Inserir link do evento";
+
+/*  */
+"enter_place_address" = "Inserir endereço do lugar";
+
+/*  */
+"enter_place_name" = "Inserir nome do lugar";
+
+/*  */
+"enter_report_message" = "Insira mensagem de reclamação";
+
+/*  */
+"error_bad_username" = "O nome de usuário tem caracteres proibidos.";
+
+/*  */
+"error_choose_color" = "Por favor escolha uma cor.";
+
+/*  */
+"error_create_group_no_location" = "Não é possível criar o grupo porque a localização do dispositivo é desconhecida.";
+
+/*  */
+"error_create_event_name" = "Por favor, insira o nome do evento";
+
+/*  */
+"error_create_event_date" = "Por favor insira a data do evento";
+
+/*  */
+"error_create_event_hour" = "Por favor insira a hora do evento";
+
+/*  */
+"error_create_place_1" = "Não foi possível criar um lugar. Grupo ativo ausente";
+
+/*  */
+"error_create_place_2" = "Não foi possível criar um lugar. Localização não disponível";
+
+/*  */
+"error_create_place_3" = "Não foi possível criar um lugar. Usuari não esta logado.";
+
+/*  */
+"error_create_post_no_location" = "Não é possível criar uma postagem porque a localização do dispositivo é desconhecida.";
+
+/*  */
+"error_generic" = "Desculpe, algo deu errado.";
+
+/*  */
+"error_invalid_link" = "Por favor, insira um link válido.";
+
+/*  */
+"error_required_vk_email" = "Por favor, preencha seu e-mail em sua conta VK e tente novamente.";
+
+/*  */
+"error_select_group_photo" = "Por favor, selecione uma foto.";
+
+/*  */
+"error_select_one_image_or_video" = "Por favor, selecione pelo menos uma imagem ou vídeo.";
+
+/*  */
+"error_username_taken" = "O nome de usuário já está sendo usado por outra conta.";
+
+/*  */
+"error_weak_password" = "A senha é muito fraca.";
+
+/*  */
+"error_presence_event_in_process" = "Operação anterior ainda em andamento. Por favor, tente novamente em alguns instantes.";
+
+/*  */
+"error_check_in_another_place" = "Para fazer check-in em %1$@, você deve dar uma olhada em %2$@ primeiro.";
+
+/*  */
+"error_check_in_temporary_place" = "Você já fez um check-in nesta região nas últimas 24 horas";
+
+/*  */
+"error_no_active_group_post" = "Você deve fazer parte de um grupo para adicionar uma postagem.";
+
+/*  */
+"error_no_active_group_event" = "Você deve fazer parte de um grupo para criar um evento.";
+
+/*  */
+"error_no_active_group_comment" = "Você deve fazer parte de um grupo para comentar.";
+
+/*  */
+"error_no_member_group_post" = "Somente membros do grupo podem criar uma postagem.";
+
+/*  */
+"error_no_user_group_post" = "Você deve entrar ou se registrar para adicionar uma postagem.";
+
+/*  */
+"error_no_user_group_event" = "Você deve entrar ou se registrar para adicionar um evento.";
+
+/*  */
+"error_no_user_comment" = "Você deve entrar ou se registrar para adicionar uma postagem.";
+
+/*  */
+"error_no_user_chat" = "Você deve entrar ou se registrar para conversar.";
+
+/*  */
+"error_no_user_hide_post" = "Você deve fazer o login ou se registrar para ocultar uma postagem.";
+
+/*  */
+"error_no_user_like_post" = "Você deve entrar ou se registrar para gostar de um post.";
+
+/*  */
+"error_no_user_like_comment" = "Você deve entrar ou se registrar para gostar de um comentário.";
+
+/*  */
+"event_name" = "Nome do evento";
+
+/*  */
+"exact_address_optional" = "Endereço Exato (Opcional)";
+
+/*  */
+"female" = "Fêmea";
+
+/*  */
+"finishing_purchase" = "Finalizando compra";
+
+/*  */
+"followed" = "Seguido";
+
+/*  */
+"forgot_password" = "Esqueceu sua senha?";
+
+/*  */
+"forgot_password_instructions" = "Digite seu endereço de e-mail e enviaremos um link para redefinir sua senha";
+
+/*  */
+"gender" = "Gênero";
+
+/*  */
+"get_directions" = "Obter direções";
+
+/*  */
+"google_maps_not_installed" = "Por favor, instale o aplicativo do Google Maps";
+
+/*  */
+"hide_post" = "Ocultar esta postagem";
+
+/*  */
+"hour" = "Hora";
+
+/*  */
+"hours" = "Horas";
+
+/*  */
+"incorrect_password" = "Senha incorreta. Tente novamente";
+
+/*  */
+"incorrect_username" = "Nome de usuário incorreto. Tente novamente";
+
+/*  */
+"inform_email" = "Por favor, informe seu email.";
+
+/*  */
+"inform_place_description" = "Por favor, informe a descrição do lugar.";
+
+/*  */
+"invalid_email" = "e-mail inválido";
+
+/*  */
+"invalid_group_name" = "o nome do grupo deve ter pelo menos 3 caracteres";
+
+/*  */
+"invalid_description" = "a descrição deve ter pelo menos %d caracteres";
+
+/*  */
+"invalid_place_name" = "o nome do lugar deve ter pelo menos três caracteres";
+
+/*  */
+"invalid_post_title" = "o título da postagem deve ter pelo menos três caracteres";
+
+/*  */
+"invalid_password" = "A senha deve ter pelo menos 6 caracteres";
+
+/*  */
+"invalid_repeat_password" = "senha não corresponde";
+
+/*  */
+"invalid_message" = "a mensagem do relatório deve ter pelo menos 10 caracteres";
+
+/*  */
+"invalid_username" = "nome de usuário não pode estar vazio";
+
+/*  */
+"join_group" = "Juntar-se ao grupo";
+
+/*  */
+"just_lost" = "PERDEU";
+
+/*  */
+"just_won" = "GANHOU";
+
+/*  */
+"language" = "Idioma";
+
+/*  */
+"leave" = "Sair";
+
+/*  */
+"leave_group" = "Deixar o grupo";
+
+/*  */
+"link" = "Link";
+
+/*  */
+"login" = "Entrar";
+
+/*  */
+"logout" = "Sair";
+
+/*  */
+"km" = "KM";
+
+/*  */
+"male" = "Macho";
+
+/*  */
+"manage_groups" = "Gerenciar meus grupos (admin)";
+
+/*  */
+"menu_ban" = "Banir este membro";
+
+/*  */
+"menu_make_administrator" = "Faça este membro admin";
+
+/*  */
+"menu_remove_admin" = "Remover privilégio de administrador";
+
+/*  */
+"miles" = "MILHAS";
+
+/*  */
+"minutes" = "Minutos";
+
+/*  */
+"my_feed" = "Minhas notícias";
+
+/*  */
+"my_posts" = "Minhas postagens";
+
+/*  */
+"my_profile" = "Meu perfil";
+
+/*  */
+"my_subscriptions" = "Minhas inscrições";
+
+/*  */
+"no_messages" = "Sem mensagens";
+
+/*  */
+"not_implemented" = "Não implementado";
+
+/*  */
+"not_implemented_edit_profile" = "Edição de perfil não implementada";
+
+/*  */
+"notification_comment_title" = "Novo comentário";
+
+/*  */
+"notification_comment_message" = "%@ comentou na sua postagem.";
+
+/*  */
+"notification_checkin_title" = "Novo check-in";
+
+/*  */
+"notification_checkin_msg" = "%1$@ check-in %2$@";
+
+/*  */
+"pay_now" = "PAGUE AGORA";
+
+/*  */
+"password" = "SENHA";
+
+/*  */
+"place_claimed" = "Lugar reivindicado!";
+
+/*  */
+"places_you_follow" = "Lugares que você segue";
+
+/*  */
+"present" = "Apresenta:";
+
+/*  */
+"private_word" = "Privado";
+
+/*  */
+"photo" = "Foto";
+
+/*  */
+"post" = "POSTAR";
+
+/*  */
+"post_image" = "Postar Imagem";
+
+/*  */
+"post_text" = "Postar Texto";
+
+/*  */
+"post_video" = "Postar Vídeo";
+
+/*  */
+"profile" = "Perfil";
+
+/*  */
+"public_word" = "Público";
+
+/*  */
+"purchase_in_process" = "Compra está em processo";
+
+/*  */
+"ok" = "OK";
+
+/*  */
+"off" = "Desligado";
+
+/*  */
+"on" = "Ligado";
+
+/*  */
+"or" = "OU";
+
+/*  */
+"people_who_reacted" = "Pessoas que reagiram";
+
+/*  */
+"pictures" = "Fotos";
+
+/*  */
+"push_notifications" = "Notificações via push";
+
+/*  */
+"refresh" = "Atualizar";
+
+/*  */
+"register" = "Registrar";
+
+/*  */
+"remove_admin_error" = "A ação não pode ser concluída: você é o único administrador desse grupo";
+
+/*  */
+"rename" = "Renomear";
+
+/*  */
+"repeat_password" = "REPITA A SENHA";
+
+/*  */
+"report" = "Reportar";
+
+/*  */
+"report_place" = "Reportar este lugar";
+
+/*  */
+"report_post" = "Reportar essa postagem";
+
+/*  */
+"report_sent" = "Relatório enviado com sucesso";
+
+/*  */
+"reset_settings" = "Redefinir configurações";
+
+/*  */
+"route_unavailable" = "Rota indisponível";
+
+/*  */
+"save" = "Salvar";
+
+/*  */
+"save_changes" = "SALVAR MUDANÇAS";
+
+/*  */
+"see_more" = "Ver mais";
+
+/*  */
+"send" = "Enviar";
+
+/*  */
+"search_chat" = "Pesquisar Chat";
+
+/*  */
+"search_group" = "Procurar Grupo";
+
+/*  */
+"search_place" = "Procurar Lugar";
+
+/*  */
+"search_user" = "Procurar usuário";
+
+/*  */
+"search_username" = "Pesquisar nome de usuário";
+
+/*  */
+"settings" = "Configurações";
+
+/*  */
+"social_and_subscriptions" = "Social / Assinaturas";
+
+/*  */
+"sponsored_posts_count" = "%1$d/%2$d postagens patrocinadas";
+
+/*  */
+"sponsored_posts_limit_error" = "Não há mais postagens patrocinadas disponíveis hoje";
+
+/*  */
+"success" = "Sucesso";
+
+/*  */
+"subscription_price" = "%1$@ %2$@ / mês";
+
+/*  */
+"terms_of_service" = "Termos de serviço";
+
+/*  */
+"text_cannot_be_empty" = "o texto não pode estar vazio";
+
+/*  */
+"the_other_place" = "o outro lugar";
+
+/*  */
+"type_here" = "Digite aqui…";
+
+/*  */
+"unattending" = "Não Comparecendo";
+
+/*  */
+"unit" = "Unidade";
+
+/*  */
+"username" = "Nome de Usuário";
+
+/*  */
+"users_confirmed" = "Usuarios Confirmados";
+
+/*  */
+"wait_previous_operation" = "Por favor, aguarde o término da operação anterior e tente novamente.";
+
+/*  */
+"wait_messages_load" = "Por favor, aguarde as mensagens terminar para carregar";
+
+/*  */
+"write_anything_here" = "Escreva aqui";
+
+/*  */
+"write_comment" = "Escreva seu comentário aqui";
+
+/*  */
+"write_here" = "Escreva aqui";
+
+/*  */
+"write_message_here" = "Escreva uma mensagem aqui";
+
+/*  */
+"video" = "Vídeo";
+
+/*  */
+"video_upload_in_progress" = "Escreva uma mensagem aqui…";
+
+/*  */
+"check_in_error_no_group" = "Você deve fazer parte de um grupo para fazer o check-in.";
+
+/*  */
+"delete_group" = "Excluir grupo";
+
+/*  */
+"delete_group_question" = "Tem certeza de que deseja excluir este grupo?";
+
+/*  */
+"delete_place" = "Excluir local";
+
+/*  */
+"delete_place_question" = "Tem certeza de que deseja excluir este lugar?";
+
+/*  */
+"edit_group" = "Editar grupo";
+
+/*  */
+"edit_place" = "Editar local";
+
+/*  */
+"error_checkin_deleted_place" = "Não é possível fazer check-in ou seguir este local porque está inativo.";
+
+/*  */
+"error_join_deleted_group" = "Você não pode se juntar ou seguir este grupo porque está inativo.";
+
+/*  */
+"error_use_group" = "Este grupo não pode ser usado porque está inativo.";
+
+/*  */
+"error_create_event_date_2" = "Não é possível criar um evento com uma data passada.";
+
+/*  */
+"error_purchase_no_country" = "Não é possível prosseguir com a compra. País não está definido";
+
+/*  */
+"error_paypal_no_plan_id" = "O código do plano do Paypal não está definido. Entre em contato com o administrador do sistema.";
+
+/*  */
+"error_paypal_no_user" = "Erro: o usuário não está logado";
+
+/*  */
+"error_video_max_size" = "Não é possível selecionar este arquivo. Tamanho máximo permitido: %d mb.";
+
+/*  */
+"notification_comment_message_2" = "%@ respondeu seu comentário.";
+
+/*  */
+"notification_chat_title" = "Nova mensagem";
+
+/*  */
+"notification_chat_message" = "%@ enviou uma mensagem para você";
+
+/*  */
+"notification_post_title" = "Nova postagem";
+
+/*  */
+"notification_post_message" = "%1$@ adicionou uma postagem em %2$@";
+
+/*  */
+"notification_lost_place_title" = "Lugar perdido";
+
+/*  */
+"notification_lost_place_msg" = "%1$@ ganhou %2$@ de %3$@";
+
+/*  */
+"notification_won_place_title" = "Lugar ganho";
+
+/*  */
+"notification_won_place_msg" = "%1$@ ganhou %2$@";
+
+/*  */
+"notification_conquered_place_title" = "Lugar conquistado";
+
+/*  */
+"notification_conquered_place_msg" = "%1$@ conquistou %2$@";
+
+/*  */
+"please_select_your_country" = "Por favor selecione seu país";
+
+/*  */
+"restarting_app" = "Reiniciando aplicativo";
+
+/*  */
+"snacky_error_load_data" = "Não foi possível carregar os dados.";
+
+/*  */
+"subscription_canceled" = "Assinatura cancelada";
+
+/*  */
+"try_again" = "Tente novamente";
+
+/*  */
+"video_not_available" = "Este vídeo não está disponível.";
+
+/*  */
+"yes" = "Sim";
+
+/*  */
+"paypal_agreement_description" = "Assinatura mensal te possibilita fazer 3 posts patrocinados por dia, que chegarão a todos os usuários em um raio de 25 km.";
+
+/*  */
+"enter_feedback_message" = "Escreva aqui seu comentário";
+
+/*  */
+"error_username_taken_2" = "O email %@ já está em uso por outra conta.";
+
+/*  */
+"feedback" = "Comentar";
+
+/*  */
+"feedback_sent" = "Comentário enviado";
+
+/*  */
+"loading" = "Carregando…";
+
+/*  */
+"no" = "Não";
+
+/*  */
+"play_store_review" = "Você deseja avaliar o aplicativo na Play Store?";
+
+/*  */
+"privacy_policy" = "Política de privacidade";
+
+/*  */
+"rate_app" = "Avaliar app";
+
+/*  */
+"rate_title" = "Você está gostando do Orbis?";
+
+/*  */
+"retry" = "De novo";
+
+/*  */
+"saving" = "Salvando";
+
+/*  */
+"thank_you" = "Obrigado!";
+
+/*  */
+"upload_error" = "Falha no upload";
+
+/*  */
+"uploading" = "Transferindo";
+
+/*  */
+"you_subscribed" = "Você assinou";
+
+/*  */
+"you_unsubscribed" = "Assinatura cancelada";
+
+/*  */
+"tutorial_0_0" = "Registre-se aqui";
+
+/*  */
+"tutorial_0_1" = "Bem vindo ao Orbis";
+
+/*  */
+"tutorial_1_0" = "Aqui está o seu feed de notícias";
+
+/*  */
+"tutorial_1_1" = "Explore o que está acontecendo na região em um raio de 25 km";
+
+/*  */
+"tutorial_1_2" = "Adicione sua postagem aqui";
+
+/*  */
+"tutorial_2_0" = "Aqui, você pode escolher o tipo do lugar";
+
+/*  */
+"tutorial_3_0" = "Este é o mapa onde você pode descobrir os grupos de personalidade da região perto de você";
+
+/*  */
+"tutorial_4_0" = "Faça Check-in Aqui !";
+
+/*  */
+"tutorial_5_0" = "Clique aqui para ver mais informações sobre o grupo";
+
+/*  */
+"tutorial_5_1" = "Junte-se ao grupo ou crie um novo";
+
+/*  */
+"tutorial_6_0" = "Lugares dominados pelo grupo";
+
+/*  */
+"tutorial_6_1" = "Notícias";
+
+/*  */
+"tutorial_6_2" = "Calendário de eventos do grupo";
+
+/*  */
+"tutorial_6_3" = "Veja os membros do grupo";
+
+/*  */
+"tutorial_7_0" = "Clique aqui para ver mais informações sobre o local";
+
+/*  */
+"tutorial_7_1" = "Siga o lugar";
+
+/*  */
+"tutorial_7_2" = "Veja os símbolos dos grupos que dominam o lugar";
+
+/*  */
+"tutorial_7_3" = "Clique aqui para criar um novo lugar";
+
+/*  */
+"tutorial_8_0" = "O nome do lugar";
+
+/*  */
+"tutorial_8_1" = "Descrição";
+
+/*  */
+"tutorial_8_3" = "Membros";
+
+/*  */
+"tutorial_8_4" = "Veja qual grupo domina o lugar";
+
+/*  */
+"tutorial_8_5" = "Calendário de eventos";
+
+/*  */
+"tutorial_9_0" = "Veja qual grupo domina este lugar";
+
+/*  */
+"tutorial_10_0" = "Explore os eventos que acontecem perto de você";
+
+/*  */
+"tutorial_10_1" = "Clique para mais informações sobre o evento";
+
+/*  */
+"tutorial_11_0" = "Personalize o grupo com o próprio símbolo e cor única";
+
+/*  */
+"tutorial_12_0" = "Círculo de grupo cresce no mapa depois de se fazer o check-in no local";
+
+
+"notification_liked_title" = "Nova curtida";
+"notification_liked_msg_post" = "%@ curtiu seu post";
+"notification_liked_msg_comment" = "%@ curtiu seu comentário";
+"notification_liked_msg_image" = "%@ curtiu sua imagem";
+
+"notification_joined_title" = "Novo membro";
+"notification_joined_message" = "%@ se tornou membro de %@";
+
+"check_in_with_group_not_allowed" = "Você deve esperar %@ minutos antes de fazer check in novamente";
+
+"welcome_chat_message" = "Olá, sou Felipe, um dos fundadores do Orbis. Você está gostando do app? Conseguiu entender o conceito? Alguma dificuldade em juntar-se a um grupo e fazer check-in?";

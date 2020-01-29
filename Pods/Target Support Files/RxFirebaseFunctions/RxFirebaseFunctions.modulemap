@@ -1,0 +1,6 @@
+framework module RxFirebaseFunctions {
+  umbrella header "RxFirebaseFunctions-umbrella.h"
+
+  export *
+  module * { export * }
+}

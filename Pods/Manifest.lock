@@ -1,0 +1,484 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AWSAuthCore (2.12.1):
+    - AWSCore (= 2.12.1)
+  - AWSCognito (2.12.1):
+    - AWSCore (= 2.12.1)
+  - AWSCognitoIdentityProvider (2.12.1):
+    - AWSCognitoIdentityProviderASF (= 1.0.1)
+    - AWSCore (= 2.12.1)
+  - AWSCognitoIdentityProviderASF (1.0.1)
+  - AWSCore (2.12.1)
+  - AWSMobileClient (2.12.1):
+    - AWSAuthCore (= 2.12.1)
+    - AWSCognitoIdentityProvider (= 2.12.1)
+  - AWSS3 (2.12.1):
+    - AWSCore (= 2.12.1)
+  - BoringSSL-GRPC (0.0.3):
+    - BoringSSL-GRPC/Implementation (= 0.0.3)
+    - BoringSSL-GRPC/Interface (= 0.0.3)
+  - BoringSSL-GRPC/Implementation (0.0.3):
+    - BoringSSL-GRPC/Interface (= 0.0.3)
+  - BoringSSL-GRPC/Interface (0.0.3)
+  - CodableFirebase (0.2.1)
+  - Crashlytics (3.12.0):
+    - Fabric (~> 1.9.0)
+  - DefaultsKit (0.2.0)
+  - Differentiator (4.0.1)
+  - Dwifft (0.9)
+  - Fabric (1.9.0)
+  - FBSDKCoreKit (5.8.0):
+    - FBSDKCoreKit/Basics (= 5.8.0)
+    - FBSDKCoreKit/Core (= 5.8.0)
+  - FBSDKCoreKit/Basics (5.8.0)
+  - FBSDKCoreKit/Core (5.8.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.8.0):
+    - FBSDKLoginKit/Login (= 5.8.0)
+  - FBSDKLoginKit/Login (5.8.0):
+    - FBSDKCoreKit (~> 5.0)
+  - Firebase/Auth (6.11.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 6.3.1)
+  - Firebase/CoreOnly (6.11.0):
+    - FirebaseCore (= 6.3.2)
+  - Firebase/Database (6.11.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 6.1.1)
+  - FirebaseABTesting (3.1.2):
+    - FirebaseAnalyticsInterop (~> 1.3)
+    - FirebaseCore (~> 6.1)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebaseAnalyticsInterop (1.4.0)
+  - FirebaseAuth (6.3.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.2)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseAuthInterop (1.0.0)
+  - FirebaseCore (6.3.2):
+    - FirebaseCoreDiagnostics (~> 1.0)
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Logger (~> 6.2)
+  - FirebaseCoreDiagnostics (1.1.1):
+    - FirebaseCoreDiagnosticsInterop (~> 1.0)
+    - GoogleDataTransportCCTSupport (~> 1.0)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Logger (~> 6.2)
+    - nanopb (~> 0.3.901)
+  - FirebaseCoreDiagnosticsInterop (1.0.0)
+  - FirebaseDatabase (6.1.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.0)
+    - leveldb-library (~> 1.22)
+  - FirebaseDynamicLinks (4.0.5):
+    - FirebaseAnalyticsInterop (~> 1.3)
+    - FirebaseCore (~> 6.2)
+  - FirebaseFirestore (1.6.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.2)
+    - FirebaseFirestore/abseil-cpp (= 1.6.1)
+    - "gRPC-C++ (= 0.0.9)"
+    - leveldb-library (~> 1.22)
+    - nanopb (~> 0.3.901)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebaseFirestore/abseil-cpp (1.6.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.2)
+    - "gRPC-C++ (= 0.0.9)"
+    - leveldb-library (~> 1.22)
+    - nanopb (~> 0.3.901)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebaseFunctions (2.5.1):
+    - FirebaseAuthInterop (~> 1.0)
+    - FirebaseCore (~> 6.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - FirebaseInstanceID (4.2.6):
+    - FirebaseCore (~> 6.0)
+    - GoogleUtilities/Environment (~> 6.0)
+    - GoogleUtilities/UserDefaults (~> 6.0)
+  - FirebaseMessaging (4.1.7):
+    - FirebaseAnalyticsInterop (~> 1.3)
+    - FirebaseCore (~> 6.2)
+    - FirebaseInstanceID (~> 4.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/Reachability (~> 6.2)
+    - GoogleUtilities/UserDefaults (~> 6.2)
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - FirebasePerformance (3.1.5):
+    - FirebaseCore (~> 6.3)
+    - FirebaseInstanceID (~> 4.2)
+    - FirebaseRemoteConfig (~> 4.4)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - GoogleUtilities/Environment (~> 6.2)
+    - GoogleUtilities/ISASwizzler (~> 6.2)
+    - GoogleUtilities/MethodSwizzler (~> 6.2)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.9)
+  - FirebaseRemoteConfig (4.4.3):
+    - FirebaseABTesting (~> 3.1)
+    - FirebaseAnalyticsInterop (~> 1.4)
+    - FirebaseCore (~> 6.2)
+    - FirebaseInstanceID (~> 4.2)
+    - GoogleUtilities/Environment (~> 6.2)
+    - "GoogleUtilities/NSData+zlib (~> 6.2)"
+    - Protobuf (>= 3.9.2, ~> 3.9)
+  - GeoFire (3.0.0):
+    - Firebase/Database (~> 6.0)
+  - Google-Mobile-Ads-SDK (7.51.0):
+    - GoogleAppMeasurement (~> 6.0)
+  - GoogleAppMeasurement (6.1.3):
+    - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
+    - GoogleUtilities/MethodSwizzler (~> 6.0)
+    - GoogleUtilities/Network (~> 6.0)
+    - "GoogleUtilities/NSData+zlib (~> 6.0)"
+    - nanopb (~> 0.3.901)
+  - GoogleDataTransport (3.0.1)
+  - GoogleDataTransportCCTSupport (1.2.1):
+    - GoogleDataTransport (~> 3.0)
+    - nanopb (~> 0.3.901)
+  - GoogleToolboxForMac/Defines (2.2.2)
+  - GoogleToolboxForMac/Logger (2.2.2):
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - "GoogleToolboxForMac/NSData+zlib (2.2.2)":
+    - GoogleToolboxForMac/Defines (= 2.2.2)
+  - GoogleUtilities/AppDelegateSwizzler (6.3.1):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (6.3.1)
+  - GoogleUtilities/ISASwizzler (6.3.1)
+  - GoogleUtilities/Logger (6.3.1):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (6.3.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (6.3.1):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (6.3.1)"
+  - GoogleUtilities/Reachability (6.3.1):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (6.3.1):
+    - GoogleUtilities/Logger
+  - "gRPC-C++ (0.0.9)":
+    - "gRPC-C++/Implementation (= 0.0.9)"
+    - "gRPC-C++/Interface (= 0.0.9)"
+  - "gRPC-C++/Implementation (0.0.9)":
+    - "gRPC-C++/Interface (= 0.0.9)"
+    - gRPC-Core (= 1.21.0)
+    - nanopb (~> 0.3)
+  - "gRPC-C++/Interface (0.0.9)"
+  - gRPC-Core (1.21.0):
+    - gRPC-Core/Implementation (= 1.21.0)
+    - gRPC-Core/Interface (= 1.21.0)
+  - gRPC-Core/Implementation (1.21.0):
+    - BoringSSL-GRPC (= 0.0.3)
+    - gRPC-Core/Interface (= 1.21.0)
+    - nanopb (~> 0.3)
+  - gRPC-Core/Interface (1.21.0)
+  - GTMSessionFetcher/Core (1.3.0)
+  - Kingfisher (5.4.0)
+  - leveldb-library (1.22)
+  - MaterialComponents/AnimationTiming (93.0.0)
+  - MaterialComponents/Elevation (93.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Ink (93.0.0):
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/Palettes (93.0.0)
+  - MaterialComponents/private/Application (93.0.0)
+  - MaterialComponents/private/Color (93.0.0)
+  - MaterialComponents/private/Math (93.0.0)
+  - MaterialComponents/Ripple (93.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/private/Color
+    - MaterialComponents/private/Math
+  - MaterialComponents/schemes/Color (93.0.0):
+    - MaterialComponents/private/Color
+  - MaterialComponents/ShadowElevations (93.0.0)
+  - MaterialComponents/ShadowLayer (93.0.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Tabs (93.0.0):
+    - MaterialComponents/AnimationTiming
+    - MaterialComponents/Elevation
+    - MaterialComponents/Ink
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Math
+    - MaterialComponents/Ripple
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+  - "MaterialComponents/Tabs+ColorThemer (93.0.0)":
+    - MaterialComponents/schemes/Color
+    - MaterialComponents/Tabs
+  - MaterialComponents/Typography (93.0.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (2.0.0)
+  - MKProgress (1.0.9)
+  - nanopb (0.3.9011):
+    - nanopb/decode (= 0.3.9011)
+    - nanopb/encode (= 0.3.9011)
+  - nanopb/decode (0.3.9011)
+  - nanopb/encode (0.3.9011)
+  - ObjectMapper (3.4.2)
+  - PKHUD (5.2.1)
+  - Protobuf (3.10.0)
+  - RSKImageCropper (2.2.3)
+  - RxAlamofire (5.1.0):
+    - RxAlamofire/Core (= 5.1.0)
+  - RxAlamofire/Core (5.1.0):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 5.0)
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxFirebaseAuth (2.4):
+    - Firebase/Auth (~> 6.0)
+    - RxSwift (~> 5.0)
+  - RxFirebaseDatabase (0.3.8):
+    - FirebaseDatabase (~> 6)
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxFirebaseFunctions (0.3.8):
+    - FirebaseFunctions (~> 2.5)
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxGesture (3.0.1):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxKeyboard (1.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxOptional (4.1.0):
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
+  - SwifterSwift (5.0.0):
+    - SwifterSwift/AppKit (= 5.0.0)
+    - SwifterSwift/CoreGraphics (= 5.0.0)
+    - SwifterSwift/CoreLocation (= 5.0.0)
+    - SwifterSwift/Dispatch (= 5.0.0)
+    - SwifterSwift/Foundation (= 5.0.0)
+    - SwifterSwift/MapKit (= 5.0.0)
+    - SwifterSwift/SpriteKit (= 5.0.0)
+    - SwifterSwift/SwiftStdlib (= 5.0.0)
+    - SwifterSwift/UIKit (= 5.0.0)
+  - SwifterSwift/AppKit (5.0.0)
+  - SwifterSwift/CoreGraphics (5.0.0)
+  - SwifterSwift/CoreLocation (5.0.0)
+  - SwifterSwift/Dispatch (5.0.0)
+  - SwifterSwift/Foundation (5.0.0)
+  - SwifterSwift/MapKit (5.0.0)
+  - SwifterSwift/SpriteKit (5.0.0)
+  - SwifterSwift/SwiftStdlib (5.0.0)
+  - SwifterSwift/UIKit (5.0.0)
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.2):
+    - TwitterCore (>= 3.2.0)
+
+DEPENDENCIES:
+  - AWSCognito (~> 2.12.0)
+  - AWSMobileClient (~> 2.12.0)
+  - AWSS3 (~> 2.12.0)
+  - CodableFirebase (~> 0.2.1)
+  - Crashlytics (~> 3.12.0)
+  - DefaultsKit (~> 0.2.0)
+  - Dwifft (~> 0.9)
+  - Fabric (~> 1.9.0)
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FirebaseAuth (~> 6.3.1)
+  - FirebaseCore (~> 6.3.2)
+  - FirebaseDatabase (~> 6.1.1)
+  - FirebaseDynamicLinks (~> 4.0.5)
+  - FirebaseFirestore (~> 1.6.1)
+  - FirebaseFunctions (~> 2.5.1)
+  - FirebaseMessaging (~> 4.1.7)
+  - FirebasePerformance (~> 3.1.5)
+  - GeoFire (from `https://github.com/firebase/geofire-objc.git`, branch `master`)
+  - Google-Mobile-Ads-SDK (~> 7.51.0)
+  - Kingfisher (~> 5.4.0)
+  - MaterialComponents/Tabs (~> 93.0.0)
+  - "MaterialComponents/Tabs+ColorThemer (~> 93.0.0)"
+  - MKProgress (= 1.0.9)
+  - ObjectMapper (~> 3.4.2)
+  - PKHUD (~> 5.2.1)
+  - RSKImageCropper (~> 2.2.1)
+  - RxAlamofire (~> 5.1.0)
+  - RxCocoa (~> 5.0.0)
+  - RxDataSources (~> 4.0.1)
+  - RxFirebaseAuth (~> 2.4)
+  - RxFirebaseDatabase (~> 0.3.8)
+  - RxFirebaseFunctions (~> 0.3.8)
+  - RxGesture (~> 3.0.1)
+  - RxKeyboard (~> 1.0.0)
+  - RxOptional (~> 4.1.0)
+  - RxSwift (~> 5.0.0)
+  - SwifterSwift (~> 5.0.0)
+  - TwitterKit (~> 3.4.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AWSAuthCore
+    - AWSCognito
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSS3
+    - BoringSSL-GRPC
+    - CodableFirebase
+    - Crashlytics
+    - DefaultsKit
+    - Differentiator
+    - Dwifft
+    - Fabric
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseAnalyticsInterop
+    - FirebaseAuth
+    - FirebaseAuthInterop
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreDiagnosticsInterop
+    - FirebaseDatabase
+    - FirebaseDynamicLinks
+    - FirebaseFirestore
+    - FirebaseFunctions
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebasePerformance
+    - FirebaseRemoteConfig
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleDataTransportCCTSupport
+    - GoogleToolboxForMac
+    - GoogleUtilities
+    - "gRPC-C++"
+    - gRPC-Core
+    - GTMSessionFetcher
+    - Kingfisher
+    - leveldb-library
+    - MaterialComponents
+    - MDFInternationalization
+    - MKProgress
+    - nanopb
+    - ObjectMapper
+    - PKHUD
+    - Protobuf
+    - RSKImageCropper
+    - RxAlamofire
+    - RxCocoa
+    - RxDataSources
+    - RxFirebaseAuth
+    - RxFirebaseDatabase
+    - RxFirebaseFunctions
+    - RxGesture
+    - RxKeyboard
+    - RxOptional
+    - RxRelay
+    - RxSwift
+    - SwifterSwift
+    - TwitterCore
+    - TwitterKit
+
+EXTERNAL SOURCES:
+  GeoFire:
+    :branch: master
+    :git: https://github.com/firebase/geofire-objc.git
+
+CHECKOUT OPTIONS:
+  GeoFire:
+    :commit: 68b4844d179789dca88036a7cd6e838acec5fd81
+    :git: https://github.com/firebase/geofire-objc.git
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AWSAuthCore: fa908a4df2feb3c978dfabb9a0927dffc69b112d
+  AWSCognito: 9d74863c9518b2a4cd31eb42e055578d7d0fa06c
+  AWSCognitoIdentityProvider: 4b453fa8ae677dd9646fe5cb137b520105f33d08
+  AWSCognitoIdentityProviderASF: f94f1a502e72ef3d0a1de93e10bf7a79c8698118
+  AWSCore: 0a4431f74d9dbf084d420b887a6a21042b423c5c
+  AWSMobileClient: b178cd21ba500030e727c6afcc00dda438b1fecd
+  AWSS3: 640fad8279e2c5b02d803a82ff5dd6ee75d65c39
+  BoringSSL-GRPC: db8764df3204ccea016e1c8dd15d9a9ad63ff318
+  CodableFirebase: 0bf201991eeec35eb9fcd987d271ea463cf34a80
+  Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
+  DefaultsKit: 6c767941b2c3fe34c4d70e300e6c3b80c94964dd
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  Dwifft: 42912068ed2a8146077d1a1404df18625bd086e1
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  FBSDKCoreKit: e7dcac0aabcfb09d0166998edd95fe3b05a0ce5d
+  FBSDKLoginKit: 1b0cf04df0370b37404213157b060d6666ede814
+  Firebase: bc9cfc7a96c73268656d5aaab453ff1b4b530e0e
+  FirebaseABTesting: 0d10f3cdc3fa00f3f175b5b56c1003c8e888299f
+  FirebaseAnalyticsInterop: d48b6ab67bcf016a05e55b71fc39c61c0cb6b7f3
+  FirebaseAuth: b401a012cc33b04df3b52bb308b04e8766f2693e
+  FirebaseAuthInterop: 0ffa57668be100582bb7643d4fcb7615496c41fc
+  FirebaseCore: beeff42c07c30ea94702471d99db2089b594fbbd
+  FirebaseCoreDiagnostics: af29e43048607588c050889d19204f4d7b758c9f
+  FirebaseCoreDiagnosticsInterop: 6829da2b8d1fc795ff1bd99df751d3788035d2cb
+  FirebaseDatabase: 524802f7694268c79d34aeac3d67997593e1a0c9
+  FirebaseDynamicLinks: db62e9da4788f9c5ebce2028dab933a0c158cfe2
+  FirebaseFirestore: bb8315fa13a15ea8977e940496b74ba6ad9071f2
+  FirebaseFunctions: 5af7c35d1c5e41608fecbb667eb6c4e672e318d0
+  FirebaseInstanceID: d0eafcd8bdbd3447cd694594734078c3e3e77d8b
+  FirebaseMessaging: 5ab57080c83bc98c9961412e1dab379f4193d02a
+  FirebasePerformance: f34a8250a9ff3c969e18bf89990486962354d9a2
+  FirebaseRemoteConfig: 51df936d5dfba17f267b2344070c89e8daa3fcfb
+  GeoFire: 031e3501c42205339a58b38c05a39cb082aa9f30
+  Google-Mobile-Ads-SDK: 5c625884f0788d22b48e3bb641e1d65c673dc7a5
+  GoogleAppMeasurement: 434cc7be25e71dc04b8d0e3079125127b330e84a
+  GoogleDataTransport: 166f9b9f82cbf60a204e8fe2daa9db3e3ec1fb15
+  GoogleDataTransportCCTSupport: f6ab1962e9dc05ab1fb938b795e5b310209edeec
+  GoogleToolboxForMac: 800648f8b3127618c1b59c7f97684427630c5ea3
+  GoogleUtilities: f895fde57977df4e0233edda0dbeac490e3703b6
+  "gRPC-C++": 9dfe7b44821e7b3e44aacad2af29d2c21f7cde83
+  gRPC-Core: c9aef9a261a1247e881b18059b84d597293c9947
+  GTMSessionFetcher: 43b8b64263023d4f32caa0b40f4c8bfa3c5f36d8
+  Kingfisher: 9c8f2cc6710334e06f32ba2b45e77707d5e2f0c9
+  leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
+  MaterialComponents: 8083cd21bae53f331cac588b4c57e9c0468472fa
+  MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
+  MKProgress: 4fa8dd701b872c82b780c885d577f99c8848d584
+  nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  PKHUD: 4e6162c4c39ac367c6934e9855c6b4762ee16256
+  Protobuf: a4dc852ad69c027ca2166ed287b856697814375b
+  RSKImageCropper: a446db0e8444a036b34f3c43db01b2373baa4b2a
+  RxAlamofire: a2d7621de4c23a0c6e7b476b504acc32838ee341
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxFirebaseAuth: 8b3e63a37fe153f513dff3c43c17251ea7e7cc84
+  RxFirebaseDatabase: 5c1d3d31c9858f05ff6ad92e5b4b696354d1497b
+  RxFirebaseFunctions: c32622f9bb7c75c01a2489a38e376b5038e2d6f3
+  RxGesture: a3f8dd6adf078110ed5e1c9c30d09d705a09852e
+  RxKeyboard: 6683c4344304a00f943c158bd8a43ce5469c82a7
+  RxOptional: b1fcd60856807a564c0215c2184b8d33e7826dc2
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  SwifterSwift: 96f90594b370802f01647c2b1229c74a84ffafee
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
+
+PODFILE CHECKSUM: 85aad5655a31cf9961aad63c981fb92f7b7ed1c3
+
+COCOAPODS: 1.7.5

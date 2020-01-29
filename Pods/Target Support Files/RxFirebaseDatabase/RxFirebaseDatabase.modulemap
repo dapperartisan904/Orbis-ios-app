@@ -1,0 +1,6 @@
+framework module RxFirebaseDatabase {
+  umbrella header "RxFirebaseDatabase-umbrella.h"
+
+  export *
+  module * { export * }
+}
